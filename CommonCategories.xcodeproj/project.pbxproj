@@ -14,6 +14,12 @@
 		587589362064AFFC008A13CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587589352064AFFC008A13CF /* main.m */; };
 		5875895C2064B0C0008A13CF /* CXLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5875895B2064B0C0008A13CF /* CXLMainController.m */; };
 		5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5875895E2064B31D008A13CF /* UIButton+CXLAliment.m */; };
+		C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA5D206D1F3600339257 /* NSString+CXLCommon.m */; };
+		C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA60206D217C00339257 /* UIImage+CXLCommon.m */; };
+		C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */; };
+		C301FA68206D264700339257 /* EIGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA67206D264700339257 /* EIGTableView.m */; };
+		C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* EIGSettingManager.m */; };
+		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,18 @@
 		5875895B2064B0C0008A13CF /* CXLMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLMainController.m; sourceTree = "<group>"; };
 		5875895D2064B31D008A13CF /* UIButton+CXLAliment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CXLAliment.h"; sourceTree = "<group>"; };
 		5875895E2064B31D008A13CF /* UIButton+CXLAliment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CXLAliment.m"; sourceTree = "<group>"; };
+		C301FA5C206D1F3600339257 /* NSString+CXLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CXLCommon.h"; sourceTree = "<group>"; };
+		C301FA5D206D1F3600339257 /* NSString+CXLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CXLCommon.m"; sourceTree = "<group>"; };
+		C301FA5F206D217C00339257 /* UIImage+CXLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CXLCommon.h"; sourceTree = "<group>"; };
+		C301FA60206D217C00339257 /* UIImage+CXLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CXLCommon.m"; sourceTree = "<group>"; };
+		C301FA62206D223C00339257 /* NSFileManager+CXLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+CXLUtils.h"; sourceTree = "<group>"; };
+		C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CXLUtils.m"; sourceTree = "<group>"; };
+		C301FA66206D264700339257 /* EIGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGTableView.h; sourceTree = "<group>"; };
+		C301FA67206D264700339257 /* EIGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGTableView.m; sourceTree = "<group>"; };
+		C301FA6A206D2ED900339257 /* EIGSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGSettingManager.h; sourceTree = "<group>"; };
+		C301FA6B206D2ED900339257 /* EIGSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGSettingManager.m; sourceTree = "<group>"; };
+		C30353402066A73900975A6A /* UIViewController+CXLTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CXLTracking.h"; sourceTree = "<group>"; };
+		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				587589592064B07D008A13CF /* Controller */,
+				C301FA69206D2EB800339257 /* Manager */,
+				C301FA65206D25DD00339257 /* Common */,
 				587589582064B07A008A13CF /* Categories */,
 				587589262064AFFC008A13CF /* AppDelegate.h */,
 				587589272064AFFC008A13CF /* AppDelegate.m */,
@@ -81,6 +101,14 @@
 			children = (
 				5875895D2064B31D008A13CF /* UIButton+CXLAliment.h */,
 				5875895E2064B31D008A13CF /* UIButton+CXLAliment.m */,
+				C30353402066A73900975A6A /* UIViewController+CXLTracking.h */,
+				C30353412066A73900975A6A /* UIViewController+CXLTracking.m */,
+				C301FA5C206D1F3600339257 /* NSString+CXLCommon.h */,
+				C301FA5D206D1F3600339257 /* NSString+CXLCommon.m */,
+				C301FA5F206D217C00339257 /* UIImage+CXLCommon.h */,
+				C301FA60206D217C00339257 /* UIImage+CXLCommon.m */,
+				C301FA62206D223C00339257 /* NSFileManager+CXLUtils.h */,
+				C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -92,6 +120,24 @@
 				5875895B2064B0C0008A13CF /* CXLMainController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C301FA65206D25DD00339257 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C301FA66206D264700339257 /* EIGTableView.h */,
+				C301FA67206D264700339257 /* EIGTableView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C301FA69206D2EB800339257 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C301FA6A206D2ED900339257 /* EIGSettingManager.h */,
+				C301FA6B206D2ED900339257 /* EIGSettingManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,11 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
+				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
+				C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
+				C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */,
+				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
 				5875895C2064B0C0008A13CF /* CXLMainController.m in Sources */,
 				587589282064AFFC008A13CF /* AppDelegate.m in Sources */,
+				C301FA68206D264700339257 /* EIGTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
