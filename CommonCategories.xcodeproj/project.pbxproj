@@ -20,6 +20,7 @@
 		C301FA68206D264700339257 /* EIGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA67206D264700339257 /* EIGTableView.m */; };
 		C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* EIGSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
+		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		C301FA6B206D2ED900339257 /* EIGSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGSettingManager.m; sourceTree = "<group>"; };
 		C30353402066A73900975A6A /* UIViewController+CXLTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CXLTracking.h"; sourceTree = "<group>"; };
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
+		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
+		C3088FCF2092F4CB001D6924 /* CXLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 			children = (
 				C301FA66206D264700339257 /* EIGTableView.h */,
 				C301FA67206D264700339257 /* EIGTableView.m */,
+				C3088FCE2092F4CB001D6924 /* CXLConstants.h */,
+				C3088FCF2092F4CB001D6924 /* CXLConstants.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
 				C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
+				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
 				C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */,
 				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
