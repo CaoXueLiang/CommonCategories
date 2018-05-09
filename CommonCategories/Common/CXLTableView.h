@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EIGTableView : UITableView
+@interface CXLTableView : UITableView
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright © 2018年 caoxueliang.cn. All rights reserved.
 //
 
-#import "EIGTableView.h"
+#import "CXLTableView.h"
 
-@implementation EIGTableView
+@implementation CXLTableView
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
     [super willMoveToSuperview:newSuperview];

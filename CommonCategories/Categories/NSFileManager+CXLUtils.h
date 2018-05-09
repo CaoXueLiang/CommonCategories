@@ -51,4 +51,6 @@
 
 /// 移除指定位置的文件或目录
 +(BOOL)removeItemAtPath:(NSString*)path;
+
 @end
+

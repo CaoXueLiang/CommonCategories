@@ -26,8 +26,10 @@
     NSString *str = [[CXLSettingManager shareManager] cacheFileSize];
     NSLog(@"%@",str);
    // [[CXLSettingManager shareManager] clearCache];
-    NSString *currentStr = [[CXLSettingManager shareManager] cacheFileSize];
-    NSLog(@"%@",currentStr);
+    
+    if ([[CXLSettingManager shareManager] clearCache]) {
+        
+    }
 }
 
 

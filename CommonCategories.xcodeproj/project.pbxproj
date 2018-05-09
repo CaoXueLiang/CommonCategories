@@ -17,7 +17,7 @@
 		C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA5D206D1F3600339257 /* NSString+CXLCommon.m */; };
 		C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA60206D217C00339257 /* UIImage+CXLCommon.m */; };
 		C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */; };
-		C301FA68206D264700339257 /* EIGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA67206D264700339257 /* EIGTableView.m */; };
+		C301FA68206D264700339257 /* CXLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA67206D264700339257 /* CXLTableView.m */; };
 		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
@@ -43,8 +43,8 @@
 		C301FA60206D217C00339257 /* UIImage+CXLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CXLCommon.m"; sourceTree = "<group>"; };
 		C301FA62206D223C00339257 /* NSFileManager+CXLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+CXLUtils.h"; sourceTree = "<group>"; };
 		C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CXLUtils.m"; sourceTree = "<group>"; };
-		C301FA66206D264700339257 /* EIGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGTableView.h; sourceTree = "<group>"; };
-		C301FA67206D264700339257 /* EIGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGTableView.m; sourceTree = "<group>"; };
+		C301FA66206D264700339257 /* CXLTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLTableView.h; sourceTree = "<group>"; };
+		C301FA67206D264700339257 /* CXLTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLTableView.m; sourceTree = "<group>"; };
 		C301FA6A206D2ED900339257 /* CXLSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLSettingManager.h; sourceTree = "<group>"; };
 		C301FA6B206D2ED900339257 /* CXLSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLSettingManager.m; sourceTree = "<group>"; };
 		C30353402066A73900975A6A /* UIViewController+CXLTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CXLTracking.h"; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 		C301FA65206D25DD00339257 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				C301FA66206D264700339257 /* EIGTableView.h */,
-				C301FA67206D264700339257 /* EIGTableView.m */,
+				C301FA66206D264700339257 /* CXLTableView.h */,
+				C301FA67206D264700339257 /* CXLTableView.m */,
 				C3088FCE2092F4CB001D6924 /* CXLConstants.h */,
 				C3088FCF2092F4CB001D6924 /* CXLConstants.m */,
 			);
@@ -226,7 +226,7 @@
 				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
 				5875895C2064B0C0008A13CF /* CXLMainController.m in Sources */,
 				587589282064AFFC008A13CF /* AppDelegate.m in Sources */,
-				C301FA68206D264700339257 /* EIGTableView.m in Sources */,
+				C301FA68206D264700339257 /* CXLTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
