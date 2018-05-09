@@ -8,12 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
-
-/*适配iPhoneX需要用到的宏定义*/
+//是否是iPhoneX
 #define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+//状态栏高度
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+//导航栏高度
 #define kNavBarHeight 44.0
+//状态栏和导航栏高度之和
 #define KTopHeight (kStatusBarHeight + kNavBarHeight)
+//底部Tarbar高度
 #define KTarbarHeight (kDevice_Is_iPhoneX ? 83 : 49)
+//底部安全区域
 #define KTabbarSafeBottomMargin (kDevice_Is_iPhoneX ? 34 : 0)
+
+
+
+//从Bundle中获得图片
+#define KImageFromBundle(name) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:(name) ofType:@"png"]]
+//主window
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+//RGB颜色值
+#define RGB(r, g, b) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+//打印完整的log数据
+#define SLog(format, ...) printf("class: <%p %s:(%d) > method: %s \n%s\n", self, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
+
 

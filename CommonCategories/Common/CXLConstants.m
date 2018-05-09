@@ -8,6 +8,4 @@
 
 #import "CXLConstants.h"
 
-@implementation CXLConstants
 
-@end

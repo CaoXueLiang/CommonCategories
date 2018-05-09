@@ -18,7 +18,7 @@
 		C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA60206D217C00339257 /* UIImage+CXLCommon.m */; };
 		C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */; };
 		C301FA68206D264700339257 /* EIGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA67206D264700339257 /* EIGTableView.m */; };
-		C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* EIGSettingManager.m */; };
+		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
 /* End PBXBuildFile section */
@@ -45,8 +45,8 @@
 		C301FA63206D223C00339257 /* NSFileManager+CXLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CXLUtils.m"; sourceTree = "<group>"; };
 		C301FA66206D264700339257 /* EIGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGTableView.h; sourceTree = "<group>"; };
 		C301FA67206D264700339257 /* EIGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGTableView.m; sourceTree = "<group>"; };
-		C301FA6A206D2ED900339257 /* EIGSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIGSettingManager.h; sourceTree = "<group>"; };
-		C301FA6B206D2ED900339257 /* EIGSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIGSettingManager.m; sourceTree = "<group>"; };
+		C301FA6A206D2ED900339257 /* CXLSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLSettingManager.h; sourceTree = "<group>"; };
+		C301FA6B206D2ED900339257 /* CXLSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLSettingManager.m; sourceTree = "<group>"; };
 		C30353402066A73900975A6A /* UIViewController+CXLTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CXLTracking.h"; sourceTree = "<group>"; };
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		C301FA69206D2EB800339257 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				C301FA6A206D2ED900339257 /* EIGSettingManager.h */,
-				C301FA6B206D2ED900339257 /* EIGSettingManager.m */,
+				C301FA6A206D2ED900339257 /* CXLSettingManager.h */,
+				C301FA6B206D2ED900339257 /* CXLSettingManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
-				C301FA6C206D2ED900339257 /* EIGSettingManager.m in Sources */,
+				C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
 				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
@@ -353,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49YMBTW8W3;
+				DEVELOPMENT_TEAM = AWBA2L5NNX;
 				INFOPLIST_FILE = CommonCategories/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 49YMBTW8W3;
+				DEVELOPMENT_TEAM = AWBA2L5NNX;
 				INFOPLIST_FILE = CommonCategories/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EIGSettingManager : NSObject
-/// 清理缓存
-+ (void)clearCache;
+
+@interface CXLSettingManager : NSObject
+/**初始化实例*/
++ (CXLSettingManager *)shareManager;
+
+/**清理缓存*/
+- (BOOL)clearCache;
+
+/**计算缓存大小*/
+- (NSString *)cacheFileSize;
+
 @end
