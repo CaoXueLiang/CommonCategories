@@ -31,6 +31,7 @@
     return newImage;
 }
 
+
 /// 调整图片方向
 - (UIImage *)fixOrientation {
     // No-op if the orientation is already correct
