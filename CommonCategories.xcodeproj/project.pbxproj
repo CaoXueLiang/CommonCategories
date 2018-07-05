@@ -21,6 +21,7 @@
 		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
+		C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
 		C3088FCF2092F4CB001D6924 /* CXLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLConstants.m; sourceTree = "<group>"; };
+		C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadio.h"; sourceTree = "<group>"; };
+		C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadio.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 		587589582064B07A008A13CF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */,
+				C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */,
 				5875895D2064B31D008A13CF /* UIButton+CXLAliment.h */,
 				5875895E2064B31D008A13CF /* UIButton+CXLAliment.m */,
 				C30353402066A73900975A6A /* UIViewController+CXLTracking.h */,
@@ -218,6 +223,7 @@
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
+				C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */,
 				C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
 				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
