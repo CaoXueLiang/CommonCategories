@@ -21,6 +21,10 @@
 		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
+		C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */; };
+		C3A10A0621D35AC2006AB73A /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */; };
+		C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */; };
+		C3A10A0A21D35B42006AB73A /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */; };
 		C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,14 @@
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
 		C3088FCF2092F4CB001D6924 /* CXLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLConstants.m; sourceTree = "<group>"; };
+		C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		C3A10A0121D35AC2006AB73A /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		C3A10A0221D35AC2006AB73A /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		C3A10A0921D35B42006AB73A /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
 		C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadio.h"; sourceTree = "<group>"; };
 		C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadio.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +117,14 @@
 		587589582064B07A008A13CF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				C3A10A0921D35B42006AB73A /* NSTimer+Blocks.h */,
+				C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */,
+				C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */,
+				C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */,
+				C3A10A0221D35AC2006AB73A /* UIImage+fixOrientation.h */,
+				C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */,
+				C3A10A0121D35AC2006AB73A /* UIImage+Rotate.h */,
+				C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */,
 				C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */,
 				C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */,
 				5875895D2064B31D008A13CF /* UIButton+CXLAliment.h */,
@@ -220,19 +240,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */,
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
+				C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
 				C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */,
 				C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
 				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
+				C3A10A0621D35AC2006AB73A /* UIImage+Rotate.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
 				C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */,
 				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
 				5875895C2064B0C0008A13CF /* CXLMainController.m in Sources */,
 				587589282064AFFC008A13CF /* AppDelegate.m in Sources */,
 				C301FA68206D264700339257 /* CXLTableView.m in Sources */,
+				C3A10A0A21D35B42006AB73A /* NSTimer+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
