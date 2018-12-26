@@ -25,6 +25,7 @@
 		C3A10A0621D35AC2006AB73A /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */; };
 		C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */; };
 		C3A10A0A21D35B42006AB73A /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */; };
+		C3A10A0D21D36A33006AB73A /* NSString+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0B21D36A33006AB73A /* NSString+Convert.m */; };
 		C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
 		C3A10A0921D35B42006AB73A /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		C3A10A0B21D36A33006AB73A /* NSString+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
+		C3A10A0C21D36A33006AB73A /* NSString+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
 		C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadio.h"; sourceTree = "<group>"; };
 		C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadio.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 		587589582064B07A008A13CF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				C3A10A0C21D36A33006AB73A /* NSString+Convert.h */,
+				C3A10A0B21D36A33006AB73A /* NSString+Convert.m */,
 				C3A10A0921D35B42006AB73A /* NSTimer+Blocks.h */,
 				C3A10A0821D35B42006AB73A /* NSTimer+Blocks.m */,
 				C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */,
@@ -243,6 +248,7 @@
 				C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */,
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
 				C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */,
+				C3A10A0D21D36A33006AB73A /* NSString+Convert.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
 				C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */,
