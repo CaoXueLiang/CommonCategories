@@ -8,6 +8,8 @@
 
 #import "CXLSettingManager.h"
 #import <UIKit/UIKit.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <SystemConfiguration/CaptiveNetwork.h>
 
 @implementation CXLSettingManager
 + (CXLSettingManager *)shareManager{
@@ -70,6 +72,19 @@
         return [[manager attributesOfItemAtPath:filePath error:nil] fileSize];
     }
     return 0;
+}
+
++ (NSDictionary *)requestWifiInfo{
+    CFArrayRef wifis = CNCopySupportedInterfaces();
+    if (!wifis || CFArrayGetCount(wifis) == 0) {
+        return nil;
+    }
+    NSArray *interfaces = (__bridge_transfer NSArray *)wifis;
+    NSDictionary *info = nil;
+    for (NSString *name in interfaces) {
+        info = (__bridge_transfer NSDictionary *)CNCopyCurrentNetworkInfo((__bridge CFStringRef)name);
+    }
+    return info;
 }
 
 @end

@@ -16,10 +16,14 @@
     [self closeSelfSizing];
 }
 
-- (void)closeSelfSizing {
-    self.estimatedRowHeight = 0;
+- (void)extracted {
     self.estimatedSectionHeaderHeight = 0;
     self.estimatedSectionFooterHeight = 0;
+}
+
+- (void)closeSelfSizing {
+    self.estimatedRowHeight = 0;
+    [self extracted];
 }
 
 @end

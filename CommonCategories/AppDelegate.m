@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CXLMainController.h"
+#import "CXLSettingManager.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,9 @@
     CXLMainController *controller = [[CXLMainController alloc]init];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:controller];
     [self.window makeKeyAndVisible];
+    
+    
+    NSLog(@"%@",[CXLSettingManager requestWifiInfo]);
     return YES;
 }
 
