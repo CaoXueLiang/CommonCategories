@@ -8,6 +8,7 @@
 
 #import "CXLMainController.h"
 #import "CXLSettingManager.h"
+#import "UIImage+CXLCommon.h"
 
 @interface CXLMainController ()
 
@@ -30,6 +31,18 @@
     if ([[CXLSettingManager shareManager] clearCache]) {
         
     }
+    
+    
+    UIImage *tmpImage = [[UIImage imageNamed:@"image"] imageWithGradientTintColor:[UIColor redColor]];
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(20, 100, 100, 100)];
+    [self.view addSubview:imageView];
+    imageView.image = tmpImage;
+    
+    
+    UIImage *originalImage = [UIImage imageNamed:@"image"];
+    UIImageView *rightimageView = [[UIImageView alloc]initWithFrame:CGRectMake(150, 100, 100, 100)];
+    [self.view addSubview:rightimageView];
+    rightimageView.image = originalImage;
 }
 
 
