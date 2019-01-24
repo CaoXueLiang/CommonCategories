@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54BB08FCF9422729C92D20B3 /* libPods-CommonCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEDF8270C57DDAFEA716CE /* libPods-CommonCategories.a */; };
 		587589282064AFFC008A13CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587589272064AFFC008A13CF /* AppDelegate.m */; };
 		5875892B2064AFFC008A13CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5875892A2064AFFC008A13CF /* ViewController.m */; };
 		587589302064AFFC008A13CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5875892F2064AFFC008A13CF /* Assets.xcassets */; };
@@ -21,15 +22,21 @@
 		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
+		C3963A0F21F8475F00735720 /* CXLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A0E21F8475F00735720 /* CXLSecondViewController.m */; };
+		C3963A1221F8477B00735720 /* CXLThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A1121F8477B00735720 /* CXLThirdViewController.m */; };
+		C3963A1521F84ED500735720 /* CXLCommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A1421F84ED500735720 /* CXLCommonManager.m */; };
+		C3963A1921F8538C00735720 /* CXLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A1721F8538C00735720 /* CXLFirstViewController.m */; };
+		C3963A1A21F8538C00735720 /* CXLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3963A1821F8538C00735720 /* CXLFirstViewController.xib */; };
 		C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */; };
-		C3A10A0621D35AC2006AB73A /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */; };
-		C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */; };
 		C3A10A0D21D36A33006AB73A /* NSString+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A10A0B21D36A33006AB73A /* NSString+Convert.m */; };
 		C3CBFC9321E4840600D69010 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CBFC9221E4840600D69010 /* SystemConfiguration.framework */; };
 		C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25EEDF8270C57DDAFEA716CE /* libPods-CommonCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3599E4107238B7E2AC4DFEBF /* Pods-CommonCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCategories.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCategories/Pods-CommonCategories.release.xcconfig"; sourceTree = "<group>"; };
+		361148803D200581F2EBC751 /* Pods-CommonCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCategories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCategories/Pods-CommonCategories.debug.xcconfig"; sourceTree = "<group>"; };
 		587589232064AFFC008A13CF /* CommonCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587589262064AFFC008A13CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		587589272064AFFC008A13CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,11 +64,16 @@
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
 		C3088FCF2092F4CB001D6924 /* CXLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLConstants.m; sourceTree = "<group>"; };
+		C3963A0D21F8475F00735720 /* CXLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLSecondViewController.h; sourceTree = "<group>"; };
+		C3963A0E21F8475F00735720 /* CXLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLSecondViewController.m; sourceTree = "<group>"; };
+		C3963A1021F8477B00735720 /* CXLThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLThirdViewController.h; sourceTree = "<group>"; };
+		C3963A1121F8477B00735720 /* CXLThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLThirdViewController.m; sourceTree = "<group>"; };
+		C3963A1321F84ED500735720 /* CXLCommonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLCommonManager.h; sourceTree = "<group>"; };
+		C3963A1421F84ED500735720 /* CXLCommonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLCommonManager.m; sourceTree = "<group>"; };
+		C3963A1621F8538C00735720 /* CXLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLFirstViewController.h; sourceTree = "<group>"; };
+		C3963A1721F8538C00735720 /* CXLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLFirstViewController.m; sourceTree = "<group>"; };
+		C3963A1821F8538C00735720 /* CXLFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CXLFirstViewController.xib; sourceTree = "<group>"; };
 		C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
-		C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
-		C3A10A0121D35AC2006AB73A /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
-		C3A10A0221D35AC2006AB73A /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
-		C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
 		C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
 		C3A10A0B21D36A33006AB73A /* NSString+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
 		C3A10A0C21D36A33006AB73A /* NSString+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
@@ -77,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3CBFC9321E4840600D69010 /* SystemConfiguration.framework in Frameworks */,
+				54BB08FCF9422729C92D20B3 /* libPods-CommonCategories.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 				587589252064AFFC008A13CF /* CommonCategories */,
 				587589242064AFFC008A13CF /* Products */,
 				C3CBFC9121E4840600D69010 /* Frameworks */,
+				9E05B9E7ABBBF3FB239DE0FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,10 +141,6 @@
 				C3A10A0B21D36A33006AB73A /* NSString+Convert.m */,
 				C3A10A0421D35AC2006AB73A /* UIAlertController+Blocks.h */,
 				C3A109FF21D35AC1006AB73A /* UIAlertController+Blocks.m */,
-				C3A10A0221D35AC2006AB73A /* UIImage+fixOrientation.h */,
-				C3A10A0321D35AC2006AB73A /* UIImage+fixOrientation.m */,
-				C3A10A0121D35AC2006AB73A /* UIImage+Rotate.h */,
-				C3A10A0021D35AC1006AB73A /* UIImage+Rotate.m */,
 				C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */,
 				C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */,
 				5875895D2064B31D008A13CF /* UIButton+CXLAliment.h */,
@@ -152,8 +162,24 @@
 			children = (
 				5875895A2064B0C0008A13CF /* CXLMainController.h */,
 				5875895B2064B0C0008A13CF /* CXLMainController.m */,
+				C3963A0D21F8475F00735720 /* CXLSecondViewController.h */,
+				C3963A0E21F8475F00735720 /* CXLSecondViewController.m */,
+				C3963A1021F8477B00735720 /* CXLThirdViewController.h */,
+				C3963A1121F8477B00735720 /* CXLThirdViewController.m */,
+				C3963A1621F8538C00735720 /* CXLFirstViewController.h */,
+				C3963A1721F8538C00735720 /* CXLFirstViewController.m */,
+				C3963A1821F8538C00735720 /* CXLFirstViewController.xib */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E05B9E7ABBBF3FB239DE0FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361148803D200581F2EBC751 /* Pods-CommonCategories.debug.xcconfig */,
+				3599E4107238B7E2AC4DFEBF /* Pods-CommonCategories.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C301FA65206D25DD00339257 /* Common */ = {
@@ -172,6 +198,8 @@
 			children = (
 				C301FA6A206D2ED900339257 /* CXLSettingManager.h */,
 				C301FA6B206D2ED900339257 /* CXLSettingManager.m */,
+				C3963A1321F84ED500735720 /* CXLCommonManager.h */,
+				C3963A1421F84ED500735720 /* CXLCommonManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -180,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				C3CBFC9221E4840600D69010 /* SystemConfiguration.framework */,
+				25EEDF8270C57DDAFEA716CE /* libPods-CommonCategories.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5875894F2064AFFC008A13CF /* Build configuration list for PBXNativeTarget "CommonCategories" */;
 			buildPhases = (
+				05B84E171AB0065D7A55CDD8 /* [CP] Check Pods Manifest.lock */,
 				5875891F2064AFFC008A13CF /* Sources */,
 				587589202064AFFC008A13CF /* Frameworks */,
 				587589212064AFFC008A13CF /* Resources */,
+				BB4CBCD1D2C5E1BA1ABF3598 /* [CP] Embed Pods Frameworks */,
+				05990E43BC8C81DE8F611BB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,10 +281,62 @@
 			files = (
 				587589332064AFFC008A13CF /* LaunchScreen.storyboard in Resources */,
 				587589302064AFFC008A13CF /* Assets.xcassets in Resources */,
+				C3963A1A21F8538C00735720 /* CXLFirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05990E43BC8C81DE8F611BB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonCategories/Pods-CommonCategories-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05B84E171AB0065D7A55CDD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonCategories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4CBCD1D2C5E1BA1ABF3598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonCategories/Pods-CommonCategories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5875891F2064AFFC008A13CF /* Sources */ = {
@@ -261,19 +345,21 @@
 			files = (
 				C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */,
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
-				C3A10A0721D35AC2006AB73A /* UIImage+fixOrientation.m in Sources */,
 				C3A10A0D21D36A33006AB73A /* NSString+Convert.m in Sources */,
 				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
+				C3963A1521F84ED500735720 /* CXLCommonManager.m in Sources */,
+				C3963A1921F8538C00735720 /* CXLFirstViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
 				C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */,
 				C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */,
+				C3963A1221F8477B00735720 /* CXLThirdViewController.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
 				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
-				C3A10A0621D35AC2006AB73A /* UIImage+Rotate.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
 				C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */,
 				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
 				5875895C2064B0C0008A13CF /* CXLMainController.m in Sources */,
+				C3963A0F21F8475F00735720 /* CXLSecondViewController.m in Sources */,
 				587589282064AFFC008A13CF /* AppDelegate.m in Sources */,
 				C301FA68206D264700339257 /* CXLTableView.m in Sources */,
 			);
@@ -399,6 +485,7 @@
 		};
 		587589502064AFFC008A13CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361148803D200581F2EBC751 /* Pods-CommonCategories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CommonCategories/CommonCategories.entitlements;
@@ -415,6 +502,7 @@
 		};
 		587589512064AFFC008A13CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3599E4107238B7E2AC4DFEBF /* Pods-CommonCategories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CommonCategories/CommonCategories.entitlements;
