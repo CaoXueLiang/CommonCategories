@@ -9,9 +9,10 @@
 #import "AppDelegate.h"
 #import "CXLMainController.h"
 #import "CXLSettingManager.h"
+#import "SGNetObserver.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate ()<SGNetworkStatusDelegate>
+@property (nonatomic,strong) SGNetObserver *observer;
 @end
 
 @implementation AppDelegate
@@ -25,9 +26,19 @@
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:controller];
     [self.window makeKeyAndVisible];
     
+    NSLog(@"获取Wifi信息:%@",[CXLSettingManager requestWifiInfo]);
     
-    NSLog(@"%@",[CXLSettingManager requestWifiInfo]);
+    /*监听网络状态*/
+    self.observer = [SGNetObserver defultObsever];
+    self.observer.delegate = self;
+    [self.observer startNotifier];
+    
     return YES;
+}
+
+- (void)observer:(id)obsever host:(NSString *)host networkStatusDidChanged:(SGNetworkStatus)ststus{
+    
+    NSLog(@"host: %@  ==== status:%ld",host,ststus);
 }
 
 

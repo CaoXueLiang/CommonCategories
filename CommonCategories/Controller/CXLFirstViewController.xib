@@ -21,19 +21,13 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-tj-32l">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-tj-32l">
                     <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="300" id="8Zn-2r-Xe4"/>
-                        <constraint firstAttribute="width" constant="300" id="lXW-hF-B7O"/>
-                    </constraints>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gg2-6b-7ya">
+                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gg2-6b-7ya">
                     <rect key="frame" x="133" y="99" width="109" height="29"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="109" id="bLC-9o-fhb"/>
-                        <constraint firstAttribute="height" constant="28" id="wkF-BS-2xH"/>
-                    </constraints>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <segments>
                         <segment title="二维码"/>
                         <segment title="条形码"/>
@@ -44,12 +38,6 @@
                 </segmentedControl>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="gg2-6b-7ya" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="79" id="6vI-Bg-wdK"/>
-                <constraint firstItem="gg2-6b-7ya" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Cf5-en-C9V"/>
-                <constraint firstItem="Z3d-tj-32l" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Uwg-oy-K6K"/>
-                <constraint firstItem="Z3d-tj-32l" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tv6-Zu-ixA"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="-362.39999999999998" y="284.70764617691157"/>
         </view>

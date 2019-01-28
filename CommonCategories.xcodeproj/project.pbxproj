@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		54BB08FCF9422729C92D20B3 /* libPods-CommonCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EEDF8270C57DDAFEA716CE /* libPods-CommonCategories.a */; };
 		587589282064AFFC008A13CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587589272064AFFC008A13CF /* AppDelegate.m */; };
-		5875892B2064AFFC008A13CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5875892A2064AFFC008A13CF /* ViewController.m */; };
 		587589302064AFFC008A13CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5875892F2064AFFC008A13CF /* Assets.xcassets */; };
 		587589332064AFFC008A13CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587589312064AFFC008A13CF /* LaunchScreen.storyboard */; };
 		587589362064AFFC008A13CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587589352064AFFC008A13CF /* main.m */; };
@@ -22,6 +21,10 @@
 		C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C301FA6B206D2ED900339257 /* CXLSettingManager.m */; };
 		C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C30353412066A73900975A6A /* UIViewController+CXLTracking.m */; };
 		C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C3088FCF2092F4CB001D6924 /* CXLConstants.m */; };
+		C31E56CF21FEF1D30064C9C4 /* SimplePinger.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E56C921FEF1D30064C9C4 /* SimplePinger.m */; };
+		C31E56D021FEF1D30064C9C4 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E56CC21FEF1D30064C9C4 /* SimplePing.m */; };
+		C31E56D121FEF1D30064C9C4 /* SGNetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E56CD21FEF1D30064C9C4 /* SGNetObserver.m */; };
+		C31E56D421FEF4FA0064C9C4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C31E56D321FEF4FA0064C9C4 /* Reachability.m */; };
 		C3963A0F21F8475F00735720 /* CXLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A0E21F8475F00735720 /* CXLSecondViewController.m */; };
 		C3963A1221F8477B00735720 /* CXLThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A1121F8477B00735720 /* CXLThirdViewController.m */; };
 		C3963A1521F84ED500735720 /* CXLCommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3963A1421F84ED500735720 /* CXLCommonManager.m */; };
@@ -40,8 +43,6 @@
 		587589232064AFFC008A13CF /* CommonCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587589262064AFFC008A13CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		587589272064AFFC008A13CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		587589292064AFFC008A13CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5875892A2064AFFC008A13CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5875892F2064AFFC008A13CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587589322064AFFC008A13CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587589342064AFFC008A13CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +65,14 @@
 		C30353412066A73900975A6A /* UIViewController+CXLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXLTracking.m"; sourceTree = "<group>"; };
 		C3088FCE2092F4CB001D6924 /* CXLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLConstants.h; sourceTree = "<group>"; };
 		C3088FCF2092F4CB001D6924 /* CXLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLConstants.m; sourceTree = "<group>"; };
+		C31E56C921FEF1D30064C9C4 /* SimplePinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePinger.m; sourceTree = "<group>"; };
+		C31E56CA21FEF1D30064C9C4 /* SimplePinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePinger.h; sourceTree = "<group>"; };
+		C31E56CB21FEF1D30064C9C4 /* SGNetObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNetObserver.h; sourceTree = "<group>"; };
+		C31E56CC21FEF1D30064C9C4 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		C31E56CD21FEF1D30064C9C4 /* SGNetObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGNetObserver.m; sourceTree = "<group>"; };
+		C31E56CE21FEF1D30064C9C4 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		C31E56D221FEF4FA0064C9C4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C31E56D321FEF4FA0064C9C4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		C3963A0D21F8475F00735720 /* CXLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLSecondViewController.h; sourceTree = "<group>"; };
 		C3963A0E21F8475F00735720 /* CXLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLSecondViewController.m; sourceTree = "<group>"; };
 		C3963A1021F8477B00735720 /* CXLThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXLThirdViewController.h; sourceTree = "<group>"; };
@@ -78,7 +87,6 @@
 		C3A10A0B21D36A33006AB73A /* NSString+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
 		C3A10A0C21D36A33006AB73A /* NSString+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
 		C3CBFC9221E4840600D69010 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C3CBFC9421E4886000D69010 /* CommonCategories.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommonCategories.entitlements; sourceTree = "<group>"; };
 		C3EEAC6720EE13C9009795CC /* UIView+CornerRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadio.h"; sourceTree = "<group>"; };
 		C3EEAC6820EE13C9009795CC /* UIView+CornerRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadio.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,15 +125,13 @@
 		587589252064AFFC008A13CF /* CommonCategories */ = {
 			isa = PBXGroup;
 			children = (
-				C3CBFC9421E4886000D69010 /* CommonCategories.entitlements */,
+				C31E56C721FEF14F0064C9C4 /* CommonTools */,
 				587589592064B07D008A13CF /* Controller */,
 				C301FA69206D2EB800339257 /* Manager */,
 				C301FA65206D25DD00339257 /* Common */,
 				587589582064B07A008A13CF /* Categories */,
 				587589262064AFFC008A13CF /* AppDelegate.h */,
 				587589272064AFFC008A13CF /* AppDelegate.m */,
-				587589292064AFFC008A13CF /* ViewController.h */,
-				5875892A2064AFFC008A13CF /* ViewController.m */,
 				5875892F2064AFFC008A13CF /* Assets.xcassets */,
 				587589312064AFFC008A13CF /* LaunchScreen.storyboard */,
 				587589342064AFFC008A13CF /* Info.plist */,
@@ -204,6 +210,30 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		C31E56C721FEF14F0064C9C4 /* CommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				C31E56C821FEF16D0064C9C4 /* NetObserver */,
+			);
+			name = CommonTools;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C31E56C821FEF16D0064C9C4 /* NetObserver */ = {
+			isa = PBXGroup;
+			children = (
+				C31E56D221FEF4FA0064C9C4 /* Reachability.h */,
+				C31E56D321FEF4FA0064C9C4 /* Reachability.m */,
+				C31E56CB21FEF1D30064C9C4 /* SGNetObserver.h */,
+				C31E56CD21FEF1D30064C9C4 /* SGNetObserver.m */,
+				C31E56CE21FEF1D30064C9C4 /* SimplePing.h */,
+				C31E56CC21FEF1D30064C9C4 /* SimplePing.m */,
+				C31E56CA21FEF1D30064C9C4 /* SimplePinger.h */,
+				C31E56C921FEF1D30064C9C4 /* SimplePinger.m */,
+			);
+			path = NetObserver;
+			sourceTree = "<group>";
+		};
 		C3CBFC9121E4840600D69010 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,7 +280,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -346,15 +376,18 @@
 				C3A10A0521D35AC2006AB73A /* UIAlertController+Blocks.m in Sources */,
 				C301FA5E206D1F3600339257 /* NSString+CXLCommon.m in Sources */,
 				C3A10A0D21D36A33006AB73A /* NSString+Convert.m in Sources */,
-				5875892B2064AFFC008A13CF /* ViewController.m in Sources */,
+				C31E56CF21FEF1D30064C9C4 /* SimplePinger.m in Sources */,
 				C3963A1521F84ED500735720 /* CXLCommonManager.m in Sources */,
 				C3963A1921F8538C00735720 /* CXLFirstViewController.m in Sources */,
 				C301FA61206D217C00339257 /* UIImage+CXLCommon.m in Sources */,
 				C3EEAC6920EE13CA009795CC /* UIView+CornerRadio.m in Sources */,
+				C31E56D121FEF1D30064C9C4 /* SGNetObserver.m in Sources */,
 				C301FA6C206D2ED900339257 /* CXLSettingManager.m in Sources */,
 				C3963A1221F8477B00735720 /* CXLThirdViewController.m in Sources */,
 				5875895F2064B31D008A13CF /* UIButton+CXLAliment.m in Sources */,
+				C31E56D021FEF1D30064C9C4 /* SimplePing.m in Sources */,
 				C3088FD02092F4CB001D6924 /* CXLConstants.m in Sources */,
+				C31E56D421FEF4FA0064C9C4 /* Reachability.m in Sources */,
 				587589362064AFFC008A13CF /* main.m in Sources */,
 				C301FA64206D223C00339257 /* NSFileManager+CXLUtils.m in Sources */,
 				C30353422066A73900975A6A /* UIViewController+CXLTracking.m in Sources */,
@@ -488,7 +521,6 @@
 			baseConfigurationReference = 361148803D200581F2EBC751 /* Pods-CommonCategories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CommonCategories/CommonCategories.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98P3XC76GZ;
 				INFOPLIST_FILE = CommonCategories/Info.plist;
@@ -505,7 +537,6 @@
 			baseConfigurationReference = 3599E4107238B7E2AC4DFEBF /* Pods-CommonCategories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CommonCategories/CommonCategories.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98P3XC76GZ;
 				INFOPLIST_FILE = CommonCategories/Info.plist;
